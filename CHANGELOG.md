@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-04-21
+
+### Fixed
+- Corrected GitHub owner in README badges and project URLs (`rayhanmahmuud` → `rayhan-mahmuud`), so PyPI badges and sidebar links now render and resolve.
+- Pointed the License badge and relative docs links at the repository's actual default branch (`master`) and converted `CHANGELOG.md`/`LICENSE` references to absolute URLs so they work when rendered on PyPI.
+- Fixed CI workflow trigger (`main` → `master`) and a malformed `uv sync` flag that prevented the CI job from ever running.
+
+### Changed
+- Dropped the misleading `uvx doshomik` snippet from the installation section — doshomik is a library, not a runnable tool.
+
+## [0.1.0] - 2026-04-21
+
 ### Added
 - Walking skeleton: package structure, exceptions (`DoshomikError`, `ParseError`, `FormatError`), CI/CD workflows, and stub public API.
 - Phase 2 — parser: `_constants.py` (digit/multiplier/currency maps), `_tokens.py` (tokenizer with NFC normalisation, Bangla→ASCII digit mapping, `Number`/`Multiplier`/`Currency` token types), and full `_parse.py` implementation. Supports Bangla and English digits, lakh/crore/hazar/million/billion multipliers and common spelling variants, grouping commas (lakh and western styles), decimal multipliers (e.g. `2.5 crore`), and currency-marker stripping. 75 tests passing across all four supported Python versions.

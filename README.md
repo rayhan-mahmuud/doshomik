@@ -1,9 +1,9 @@
 # doshomik
 
-[![CI](https://github.com/rayhanmahmuud/doshomik/actions/workflows/ci.yml/badge.svg)](https://github.com/rayhanmahmuud/doshomik/actions/workflows/ci.yml)
-[![PyPI version](https://img.shields.io/pypi/v/doshomik)](https://pypi.org/project/doshomik/)
-[![Python versions](https://img.shields.io/pypi/pyversions/doshomik)](https://pypi.org/project/doshomik/)
-[![License: MIT](https://img.shields.io/github/license/rayhanmahmuud/doshomik)](https://github.com/rayhanmahmuud/doshomik/blob/main/LICENSE)
+[![CI](https://github.com/rayhan-mahmuud/doshomik/actions/workflows/ci.yml/badge.svg)](https://github.com/rayhan-mahmuud/doshomik/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/pypi/v/doshomik.svg)](https://pypi.org/project/doshomik/)
+[![Python versions](https://img.shields.io/pypi/pyversions/doshomik.svg)](https://pypi.org/project/doshomik/)
+[![License: MIT](https://img.shields.io/github/license/rayhan-mahmuud/doshomik.svg)](https://github.com/rayhan-mahmuud/doshomik/blob/master/LICENSE)
 
 Parse and format South Asian numeric strings — Bangla and English digits, lakh-crore system, currency markers.
 
@@ -31,12 +31,6 @@ pip install doshomik
 
 ```bash
 uv add doshomik
-```
-
-### uv (standalone script / tool)
-
-```bash
-uvx doshomik  # not applicable — library only; import in your project instead
 ```
 
 Requires Python 3.10 or later. No runtime dependencies.
@@ -219,7 +213,7 @@ Raises `FormatError` on invalid arguments.
 ## Contributing
 
 ```bash
-git clone https://github.com/rayhanmahmuud/doshomik
+git clone https://github.com/rayhan-mahmuud/doshomik
 cd doshomik
 uv sync --all-groups
 
@@ -238,8 +232,8 @@ Tests target Python 3.10–3.13. Property-based tests use [Hypothesis](https://h
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/rayhan-mahmuud/doshomik/blob/master/CHANGELOG.md).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](https://github.com/rayhan-mahmuud/doshomik/blob/master/LICENSE).

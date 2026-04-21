@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 jobs:
     test:
         runs-on: ubuntu-latest
@@ -20,7 +20,7 @@ jobs:
             - name: Set Python ${{ matrix.python-version }}
               run: uv python install ${{ matrix.python-version }}
             - name: Install deps
-              run: uv sync python ${{ matrix.python-version }} --all-extras --dev
+              run: uv sync --python ${{ matrix.python-version }} --all-extras --dev
             - name: Lint
               run: uv run ruff check
             - name: Type check

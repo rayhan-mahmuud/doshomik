@@ -1,6 +1,6 @@
 [project]
 name = "doshomik"
-version = "0.1.0"
+version = "0.1.1"
 description = "Parse and format South Asian numeric strings (Bangla/English, lakh-crore system)."
 readme = "README.md"
 license = "MIT"
@@ -30,9 +30,9 @@ requires = ["uv_build>=0.11.7,<0.12.0"]
 build-backend = "uv_build"
 
 [project.urls]
-Homepage = "https://github.com/rayhanmahmuud/doshomik"
-Issues = "https://github.com/rayhanmahmuud/doshomik/issues"
-Changelog = "https://github.com/rayhanmahmuud/doshomik/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/rayhan-mahmuud/doshomik"
+Issues = "https://github.com/rayhan-mahmuud/doshomik/issues"
+Changelog = "https://github.com/rayhan-mahmuud/doshomik/blob/master/CHANGELOG.md"
 
 [dependency-groups]
 dev = [

@@ -13,6 +13,7 @@ wheels/
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
+.hypothesis/
 
 # Test and coverage reports
 .coverage
@@ -21,3 +22,4 @@ coverage.xml
 
 # Additional files to ignore
 plan.md
+test_local.py

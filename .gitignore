@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+
+# cache files
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Test and coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Additional files to ignore
+plan.md

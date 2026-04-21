@@ -1,0 +1,4 @@
+# Real-world South Asian numeric strings for regression testing.
+# Format: expected_int<TAB>raw_string
+# Add strings from BD news sources (Daily Star, Prothom Alo, Kaler Kantho) as encountered.
+# Lines starting with # are comments and are ignored by the test loader.
